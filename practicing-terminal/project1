@@ -1,0 +1,22 @@
+html, body {
+     text-align: center;
+	 background-color: royalblue;
+	}
+	h1 {
+	    color: #4169E1;
+        font-size: 3.0em;
+	}
+	h6 {
+	   color: #FF00FF;
+	}
+	img {
+	     with: 300px;
+	     height: auto;
+	     padding-bottom: 50px;
+	     align-content: center;
+	}
+	div {
+	    text-align: center;
+	}
+	
+	

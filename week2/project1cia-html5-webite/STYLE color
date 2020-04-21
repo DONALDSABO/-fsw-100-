@@ -1,0 +1,23 @@
+html,
+ body {
+	  
+     text-align: left;
+	 background-color: white;
+	}
+	h1 {
+	    color: #000000;
+        font-size: 5.0em;
+	}
+	h3 {
+	   color: #006400;
+	}
+	img {
+	     width: 300px;
+	     height: auto;
+	     padding-bottom: 50px;
+	     align-content: left;
+	}
+	div {
+	    text-align: left;
+	}
+gfgfgfgfg

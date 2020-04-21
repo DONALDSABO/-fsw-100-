@@ -1,0 +1,22 @@
+html, body {
+	  
+     text-align: center;
+	 background-color: darkslategray;
+	}
+	h1 {
+	    color: #00FFFF;
+        font-size: 10.0em;
+	}
+	h6 {
+	   color: #006400;
+	}
+	img {
+	     width: 200px;
+	     height: auto;
+	     padding-bottom: 50px;
+	     align-content: center;
+	}
+	div {
+	    text-align: center;
+	}
+	
