@@ -1,36 +1,77 @@
-head{
-	font-size:1.9em;
-	  line-height:1.0em;
-	  margin-bottom:1.0em; 
-     text-align: left;
-}
-
-	h1 { 
-    font-size:1.5em;
-	  line-height:1.0em;
-	  margin-bottom:900.px; 
-     text-align: left;
-	 background-color: white;
+html,
+ 
+	h1 {
+	color: darkgreen;
+    font-size: 50px;
+    text-align: center;
+	background-color: white;
 
 	}
 	h2 {
-	    color: #000000;
-     
+	color: black;
+	font-family: Georgia;
+    
+    line-height: 25px;
+	font-size:40px;
+    
+}
+p { 
+     color: black;
+     text-align:left;
+	 font-size:25px;
+     line-height: 25px;
+	
+	
 	}
-	h6 {
-	   color: #000000;
-	}
-	img {
-	     width: 300px;
-	     height: auto;
-	     padding-bottom: 50px;
-	     align-content: left;
+img {
+	  margin-top: 5 px;
+     width: 300px;
+     height:auto;
+     padding-bottom: 8px;
+     align-content: left;
+	 float:left;
+	 margin-right:30px;
+	 
 	}
 	 
 	div {
-	    text-align: bottom-left;
+    text-align: left;
+	color: black;
+    line-height: 25px;
+    font-size: 25px;
+	 margin-bottom:1px;
+    margin-left: 1px;
+	float:left;
 	}
-html{  margin-top: 60 px;
-  margin-bottom: 1060px;
-  margin-right: 1050px;
-  margin-left: 35px;}
+	.brown {
+	color: black;
+	 line-height: 25px;
+	font-size: 25px;
+	
+	 
+	 
+	}
+html{ 
+     margin-top: 5 px;
+     margin-bottom: 3px;
+    margin-right:1000px;
+    margin-left:18px;}
+  span{
+	  width:5%;
+	  
+  }
+ a {
+   color: #0404B4;
+   
+   text-decoration: none; // changed from text-decoration:underline
+} 	
+a:hover {
+   text-decoration: underline; // changed from text:decoration:none
+}
+
+
+
+
+
+
+ 
