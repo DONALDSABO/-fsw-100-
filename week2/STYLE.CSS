@@ -1,0 +1,77 @@
+html,
+ 
+	h1 {
+	color: darkgreen;
+    font-size: 50px;
+    text-align: center;
+	background-color: white;
+
+	}
+	h2 {
+	color: black;
+	font-family: Georgia;
+    
+    line-height: 25px;
+	font-size:40px;
+    
+}
+p { 
+     color: black;
+     text-align:left;
+	 font-size:25px;
+     line-height: 25px;
+	
+	
+	}
+img {
+	  margin-top: 5 px;
+     width: 300px;
+     height:auto;
+     padding-bottom: 8px;
+     align-content: left;
+	 float:left;
+	 margin-right:30px;
+	 
+	}
+	 
+	div {
+    text-align: left;
+	color: black;
+    line-height: 25px;
+    font-size: 25px;
+	 margin-bottom:1px;
+    margin-left: 1px;
+	float:left;
+	}
+	.brown {
+	color: black;
+	 line-height: 25px;
+	font-size: 25px;
+	
+	 
+	 
+	}
+html{ 
+     margin-top: 5 px;
+     margin-bottom: 3px;
+    margin-right:1000px;
+    margin-left:18px;}
+  span{
+	  width:5%;
+	  
+  }
+ a {
+   color: #0404B4;
+   
+   text-decoration: none; // changed from text-decoration:underline
+} 	
+a:hover {
+   text-decoration: underline; // changed from text:decoration:none
+}
+
+
+
+
+
+
+ 
