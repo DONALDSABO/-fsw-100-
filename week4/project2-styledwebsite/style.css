@@ -1,0 +1,52 @@
+html,
+  
+  
+h1 {
+ text-align: center;
+  font-family:'Montserrat', sans-serif;
+ 
+}
+
+img {
+	float: left;
+	 margin-left:20%;
+	 
+}
+
+
+footer {                                              
+	
+  padding: 8px;
+  text-align: center;
+  line-height:25px;
+ padding-bottom:8px;	
+ font-family:'Montserrat', sans-serif;
+   
+  
+}
+
+article {
+	 float:right;
+	 margin-left:25%;
+     padding: 1px;
+	  margin-right:25%;
+	  line-height:25px;
+	  content:40px;
+	  text-align: left;
+	  font-family:'Montserrat', sans-serif;
+}
+
+
+h 2 {
+float: left;
+padding-bottom:2px;
+ font-family:'Montserrat', sans-serif;	
+}
+th {
+	text-align:left;
+	 padding: 10px;
+	  font-family:'Montserrat', sans-serif;
+}
+nav{
+text-align:left;	
+}
