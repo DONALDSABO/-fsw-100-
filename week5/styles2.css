@@ -1,0 +1,177 @@
+html,
+
+
+
+body {
+     margin: 10px;
+     background-color:#CED8F6;
+	 
+}
+.wrapper1 {
+background-color:#58ACFA;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, [col] 100px ) ;
+    grid-template-rows: repeat(auto-fill, [row] auto  );
+    background-color:#CED8F6;
+	justify-content: left;
+    align-content: end;
+   
+   
+    }
+.box {
+      
+    border-radius: 5px;
+    padding: 25px;
+    font-size: 20px;
+    text-align:center; 
+    }
+
+ 
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 768px) and (max-width: 1040px) {
+  .header {
+	background-color:#F5BCA9;
+	grid-row: 1 ;
+	grid-column: col / span 4;
+}
+.sidebarone {
+	background-color:#ECF6CE;
+	grid-row: 2;
+	grid-column: 1 / 2;
+	
+}
+
+.content {
+	background-color:#CEECF5;
+	grid-row: 2 - 4;
+	grid-column: 2 / 4;
+	
+}
+
+.sidebartwo {
+	background-color:#E3CEF6;
+	grid-row: 2;
+	grid-column: 4 / 4;
+}
+
+.footer {
+	background-color:#F7819F;
+	grid-row: 3;
+	grid-column: col / span 4;
+}
+ 
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .header {
+	background-color:#610B21;
+	grid-row: 1 ;
+	grid-column: col / span 4;
+}
+.sidebarone {
+	background-color:#5858FA;
+	grid-row: 2;
+	grid-column: 1 / 2;
+	
+}
+
+.content {
+	background-color:#0B6121;
+	grid-row: 3 - 5;
+	grid-column: 2 / 5;
+	
+}
+
+.sidebartwo {
+	background-color:#5E610B;
+	grid-row: 3;
+	grid-column: col / span 4;
+}
+
+.footer {
+	background-color:#610B0B;
+	grid-row: 4;
+	grid-column: col / span 4;
+}
+  
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+	
+	                
+.header {
+	background-color:#A9D0F5;
+	grid-row: 1 ;
+	grid-column: col / span 4;
+}
+.sidebarone {
+	background-color:#58FAF4;
+	grid-row: 2;
+	grid-column: 1 / span 4;
+	
+}
+
+.content {
+	background-color:#00FF00;
+	grid-row: 3 - 5;
+	grid-column: col / span 4;
+	
+}
+
+.sidebartwo {
+	background-color:#F7FE2E;
+	grid-row: 4;
+	grid-column: col / span 4;
+}
+
+.footer {
+	background-color:#FF4000;
+	grid-row: 5;
+	grid-column: col / span 4;
+}
+
+  
+ 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
