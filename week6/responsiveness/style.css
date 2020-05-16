@@ -1,0 +1,187 @@
+html,
+head {
+	 text-align:center; 
+}
+body {
+     margin: 5px;
+     
+	  background-color:#81DAF5;
+}
+table {
+	font-size: 18px;
+	
+	
+}
+
+.wrapper {
+
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fill, [col] 400px ) ;
+   
+    background-color:#81DAF5;
+	justify-content: left;
+    align-content: left;
+   
+   
+    }
+.box {
+      
+    border-radius: 0px;
+    padding: 35px;
+    font-size: 18px;
+    text-align:left; 
+    }
+
+ 
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 2000px) {
+.a {
+	background-color:#81DAF5;
+	grid-row: 1 ;
+	grid-column: col / span 4;
+	align-content: center;
+	
+}
+.b {
+	background-color:#81DAF5;
+	grid-row: 2;
+	grid-column: 1 / 2;
+	
+	
+	
+	
+}
+
+.c {
+	background-color:#81DAF5;
+	grid-row: 2 /3;
+	grid-column: 2;
+	
+	
+}
+
+.d {
+	background-color:#81DAF5;
+	grid-row: 2;
+	grid-column: 3 /4;
+	margin-bottom:100px;
+	justify-content: left;
+	
+}
+
+.e {
+	background-color:#81DAF5;
+	grid-row: 4;
+	grid-column: col / span 4;
+	
+}
+.f {
+	grid-row: 4;
+	grid-column: 3 /4;
+	
+}
+ 
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 480px) and (max-width: 1024px) {
+.a {
+	background-color:#81DAF5;
+	grid-row: 1 ;
+	grid-column: col / span 4;
+}
+.b {
+	background-color:#81DAF5;
+	grid-row: 2;
+	grid-column: 1 / 2;
+	
+}
+
+.c {
+	background-color:#81DAF5;
+	grid-row: 3 - 5;
+	grid-column: 2 / 5;
+	
+}
+
+.d {
+	background-color:#81DAF5;
+	grid-row: 3;
+	grid-column: col / span 4;
+}
+
+.e {
+	background-color:#81DAF5;
+	grid-row: 4;
+	grid-column: col / span 4;
+}
+  .f {
+	grid-row: 4;
+	grid-column: 3 /4;
+	
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 300px) and (max-width: 480px) {
+
+
+	
+	                
+.a {
+	background-color:#81DAF5;
+	grid-row: 1 ;
+	grid-column: col / span 4;
+}
+.b {
+	background-color:#81DAF5;
+	grid-row: 2;
+	grid-column: 1 / span 4;
+	
+}
+
+.c {
+	background-color:#81DAF5;
+	grid-row: 3 - 5;
+	grid-column: col / span 4;
+	
+}
+
+.d {
+	background-color:#81DAF5;
+	grid-row: 4;
+	grid-column: col / span 4;
+}
+
+.e {
+	background-color:#81DAF5;
+	grid-row: 5;
+	grid-column: col / span 4;
+	text-align:center;
+}
+.f {
+	grid-row: 4;
+	grid-column: 3 /4;
+	
+}
+  
+ 
+  
+}
+
